@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Oswald:wght@300&family=Quicksand:wght@300&display=swap');
+
+
+/*
+    font-family: 'Nanum Gothic Coding', monospace;
+
+    font-family: 'Oswald', sans-serif;
+
+    font-family: 'Quicksand', sans-serif;
+*/
+
+/*
+	Skyblue : #00cf2;
+*/
+
+
+.navbar {
+ background-color: white;
+ color: black;
+ position: sticky;
+ top: 0;
+ height: 5rem;
+ z-index: 2;
+}
+
+
+
+.navbar .navbar-brand {
+	font-family: 'Oswald' ,sans-serif;
+	font-size: 2em;
+
+}
+
+.navbar  ul li a {
+	color: black !important;
+	font-weight: 700;
+	font-family: 'Roboto Condensed',sans-serif;
+	font-size: 1rem;
+}
+
+
+
+.search {
+	border: 1px solid #00c6f2;
+	border-radius: 5rem;
+	padding: 0.1rem;
+	height: 3rem;
+	padding-left: 5px;
+}
+
+
+
+
+.btn-0 {
+	border: 1px solid #00c6f2;
+	border-radius: 5rem;
+}
+
+
+.icon {
+	border-radius: 40%;
+	display: flex;
+	height: 35px;
+	font-size: 20px;
+}
+
+.navbar a {
+	color: black;
+}
+
+.i1  {
+	background-color: #dff9ff;
+	padding: 0.6rem;
+	border-radius: 50%;
+}
+
+
+.i2  {
+	background-color: #dff9ff;
+	padding: 0.6rem;
+	border-radius: 50%;
+}
+
+
+.icon1 {
+	top: -15px;
+	background-color: #00c6f2;
+	padding: 0.1rem;
+	color: black;
+	position: relative;
+	border-radius: 50%;
+	height: 30px;
+	width: 28px;
+	right: 10px;
+}
+
+
+
+
+
+
+/*
+https://images.habeco.si/Upload/Product/hoodie-anonymous_5210_full.jpg
+https://ichef.bbci.co.uk/news/976/cpsprodpb/B9FF/production/_117751674_satan-shoes1.jpg
+https://cdn1.vectorstock.com/i/1000x1000/87/35/blue-and-red-layout-e-sport-t-shirt-design-vector-21558735.jpg
+
+*/
+
+
+.carousel-item {
+	height: 30rem;
+	width: 100%;
+}
+
+.text-area {
+	font-family: 'Roboto Condensed',sans-serif;
+}
+
+
+
+.img-1 {
+	background-position: center;
+	background-size: cover;
+	height: 75vh;
+	background-repeat: no-repeat;
+	background: url('https://images.habeco.si/Upload/Product/hoodie-anonymous_5210_full.jpg');
+}
+
+.img-2 {
+	background-position: center;
+	background-size: cover;
+	height: 75vh;
+	background-repeat: no-repeat;
+	background: url('https://ichef.bbci.co.uk/news/976/cpsprodpb/B9FF/production/_117751674_satan-shoes1.jpg');
+}
+
+
+.img-3 {
+	background-position: center;
+	background-size: cover;
+	height: 75vh;
+	background-repeat: no-repeat;
+	background: url('https://cdn1.vectorstock.com/i/1000x1000/87/35/blue-and-red-layout-e-sport-t-shirt-design-vector-21558735.jpg');
+}
+
+.item-1::before {
+	content: '';
+	background: rgba(0,0,0,0.7);
+	height: 75vh;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.item-2::before {
+	content: '';
+	background: rgba(0,0,0,0.7);
+	height: 100%;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.item-3::before {
+	content: '';
+	background: rgba(0,0,0,0.7);
+	height: 75vh;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.carousel-inner {
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+
+
+
+
+
+/*
+https://haircutinspiration.com/wp-content/uploads/Short-Sides-Long-Top-1-1.jpg man
+https://static.toiimg.com/photo/msid-73872442/73872442.jpg woman
+https://wallpapercave.com/wp/wp6807293.jpg child 
+
+*/
+
+
+.card-img {
+	height: 50vh;
+	border-radius: 5rem;
+}
+
+.card {
+	border: unset;
+
+}
+
+.c-1 {
+	top: 50%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	position: absolute;
+	margin-left: 30%;
+	color: white;
+	font-family: sans-serif;
+}
+
+.c-2 {
+	top: 30%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	position: absolute;
+	margin-left: 20%;
+	font-family: 'Dacning Script' ,cursive;
+
+}
+
+
+.cat-btn {
+	top: 70%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	position: absolute;
+	margin-left: 30%;
+	color: white;
+}
+
+.cat::before {
+	content: '';
+	background: rgba(0,0,0,0.7);
+	height: 50vh;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 4%;
+	right: 4%;
+	border-radius: 5rem;
+}
+
+.title-cat {
+	margin-left: 40%;
+	margin-bottom: 5%;
+	font-family: "Uchern",serif;
+	font-weight: 5rem;
+}
+
+
+.title {
+	margin-left: 43%;
+	font-family: serif;
+}
+
+
+
+
+
+
+
+.img-hero {
+	background: url('https://c4.wallpaperflare.com/wallpaper/111/1015/617/clothes-hangers-rack-wallpaper-preview.jpg');
+	height: 60vh;
+	background-position: center;
+	background-size: cover;
+	color: white;
+
+
+}
+
+.overlay {
+	background: rgba(0,0,0,0.7);
+	height: 60vh;
+}
+
+.tex {
+	font-family: "Dacning Script",cursive;
+}
+
+
+
+.service-title {
+	text-align: center;
+	font-weight: 3rem;
+	font-family: sans-serif;
+}
+
+
+
+.service-card {
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+	border: 1px solid snow;
+	border-radius: 5rem;
+
+}
+
+
+
+.footer-box {
+	text-align: center;
+	background: #1e2021;
+	height: 200px;
+	font-family:  'Oswald' ,sans-serif;
+
+}

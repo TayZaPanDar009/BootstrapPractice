@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+	PanPan.Shop
+	</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <style type="text/css">
+      .
+    </style>
+</head>
+<body>
+
+<!-- navbar  -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light px-4 my-2" >
+  <div class="container-fluid">
+
+  	<!-- title of navbar  -->
+    <a class="navbar-brand" href="#">
+    	PanPan
+    	<span class="text-info">.shop</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      	<!-- home -->
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <!--  -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">Categories</a>
+        </li>
+       
+        <!--  -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">product</a>
+        </li>
+
+         <!--  -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">Lasted</a>
+        </li>
+
+         <!--  -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+
+         <!--  -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+
+          </ul>
+      <div class="d-flex">
+        <input class="form-control me-2 search" type="search" placeholder="Search" aria-label="Search">
+        <span class="icon mx-1">
+        	<a href="card.html">
+        		<i class="fas fa-shopping-cart fa-2x i1"></i>
+        	</a>
+        	<span class="icon1 ">04</span>
+
+        </span>
+
+        <span class="icon mx-1">
+        	<a href="#" >
+        		<i class="fas fa-heart fa-2x i2"></i>
+        	</a>
+        	<span class="icon1">08</span>
+
+        </span>
+        <!-- sing up button -->
+        <button 
+         data-bs-toggle="modal" data-bs-target="#exampleModal"
+        class="btn btn-outline-info btn-0" type="submit">Singinp</button>
+        <!-- .............. -->
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Sing in </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+        	<label class="forn-label mt-1">Name</label>
+        	<input type="text" name="" class="form-control" placeholder="Enter your name..">
+
+        	<label class="forn-label mt-1 ">E-Mail</label>
+        	<input type="text" name="" class="form-control" placeholder="example@example.com">
+
+        	<label class="forn-label mt-1">Password</label>
+        	<input type="password" name="" class="form-control" placeholder="Password">
+
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- view  -->
+<div class="container">
+  <!-- row start -->
+  <div class="row my-5">
+    <div class="col-md-6">
+      <!-- carousel start -->
+      <div id="cei" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- carousel items start -->
+
+          <div class="carousel-item active">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/61l2VumBzNL.jpg" class="d-block w-100">
+          </div>
+
+          <div class="carousel-item ">
+            <img src="https://i.pinimg.com/originals/d9/7c/00/d97c008533575b92d7fbd6dceef78a7e.jpg" class="d-block w-100">
+          </div>
+
+
+          <div class="carousel-item ">
+            <img src="https://ae01.alicdn.com/kf/H0ddf0cbb7cbc48e69c2bdb2bcfe8ebccM/Plain-Black-Women-Short-Sweatshirt-Womens-Zip-Up-Hoodie-Jacket-Long-Sleeve-Sweatshirts-Hoodies-Women-Slim.jpg_Q90.jpg_.webp" class="d-block w-100">
+          </div>
+
+
+          <!-- carousel items end  -->
+        </div>
+        <!-- prev -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#cei" data-bs-slide='prev'>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <!-- next  -->
+        <button class="carousel-control-next" type="button" data-bs-target="#cei"data-bs-slide='next'>
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+      <!-- carousel end -->
+    </div>
+    <div class="col-md-6 col">
+      <h1 class="">Girl Hoddie </h1>
+      <h2><s class="text-danger">$59.98</s> $30</h2>
+      <div>
+        <span>
+           <i class="fa-solid fa-star text text-warning"></i>
+           <i class="fa-solid fa-star text text-warning"></i>
+           <i class="fa-solid fa-star text text-warning"></i>
+           <i class="fa-solid fa-star text text-warning"></i>
+           <i class="fa-solid fa-star text text-warning"></i>
+        </span>
+      </div>
+
+      <select class="bg-info mt-2 form-select form-select mb-3" aria-label=".form-select-lg example">
+      <option selected>Choice Your Size</option>
+      <option value="1">Small</option>
+      <option value="2">Medium</option>
+      <option value="3">Big</option>
+      </select>
+
+      <select class="bg-info mt-2 form-select form-select mb-3" aria-label=".form-select-lg example">
+      <option selected>Choice Your Color</option>
+      <option value="1">Black</option>
+      <option value="2">Yellow</option>
+      <option value="3">Green</option>
+      </select>
+
+      <button class=" btn btn-outline-info px-5 float-left">
+        Add To Card <i class="fa fa-cart-plus fa-1x"></i>
+      </button>
+      <button class=" btn btn-outline-info px-5 float-left">
+        Buy <i class="fa-solid fa-cart-shopping"></i>
+      </button>
+
+    </div>
+  </div>
+  <!-- row end -->
+</div>
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" ></script>
+</body>
+</html>
